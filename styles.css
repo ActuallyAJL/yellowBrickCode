@@ -11,3 +11,36 @@ nav ul {
 nav li {
     display: inline;
 }
+
+section {
+    width: 200px;
+}
+
+.main_content {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    flex: 3;
+}
+aside {
+    flex: 1;
+}
+
+.friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+}
+
+.friend-list section {
+    max-width: 200px;
+    margin: 1em 2em;
+
+}
